@@ -6,7 +6,7 @@ const cors = require('cors');
 
 
 app.use(cors({
-  origin: 'https://gadgets-frontend-iuvk.onrender.com/', // your frontend origin
+  origin: 'https://gadgets-frontend-iuvk.onrender.com', // your frontend origin
   credentials: true,               // REQUIRED for cookies
 }));
 
