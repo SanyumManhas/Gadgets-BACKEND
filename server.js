@@ -5,12 +5,12 @@ const port = process.env.PORT || 9000;
 const cors = require('cors');
 
 
-// app.use(cors({
-//   origin: 'http://localhost:3000', // your frontend origin
-//   credentials: true,               // REQUIRED for cookies
-// }));
+app.use(cors({
+  origin: 'http://localhost:3000', // your frontend origin
+  credentials: true,               // REQUIRED for cookies
+}));
 
-app.use(cors());
+// app.use(cors());
 
 app.use(express.json());
 
