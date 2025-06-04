@@ -6,7 +6,7 @@ const cors = require('cors');
 
 
 app.use(cors({
-  origin: 'http://localhost:3000', // your frontend origin
+  origin: 'https://gadgets-frontend-2.onrender.com', // your frontend origin
   credentials: true,               // REQUIRED for cookies
 }));
 
