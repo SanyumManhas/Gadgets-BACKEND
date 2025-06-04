@@ -51,6 +51,6 @@ mongoose.connect("mongodb+srv://msanyum:vXmUIqUlKnTQZJbJ@gadgetsplus.fdddhaz.mon
 })
 
 
-app.listen(port,'0.0.0.0', ()=>{
+app.listen(port,()=>{
     console.log("Server Started!")
 })
